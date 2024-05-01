@@ -1,0 +1,27 @@
+# Use custom format
+# Disable the blank line at the start of the prompt
+add_newline = false
+
+# Set 'foo' as custom color palette
+palette = 'foo'
+
+# Define custom colors
+[palettes.foo]
+# Overwrite existing color
+blue = '21'
+# Define new color
+mustard = '#af8700'
+
+command_timeout = '10'
+
+
+[aws]
+disabled=true
+
+[time]
+disabled = false
+format = '$time($style) '
+time_format = '%T'
+utc_time_offset = '+10'
+time_range = '10:00:00-14:00:00'
+
